@@ -1,0 +1,74 @@
+/* ---------------------------------- */
+/* 4. DESTAQUE DE EVENTOS (com hover) */
+/* ---------------------------------- */
+.event-showcase {
+    /* NOVO: Imagem de Banner Maior e Profissional */
+    background: url('https://source.unsplash.com/1600x900/?mma,boxing,ring') no-repeat center top/cover;
+    padding: 100px 0 70px; /* Aumento do padding para torná-lo maior */
+    position: relative;
+    border-bottom: 8px solid var(--color-primary); /* Borda mais grossa */
+}
+.event-showcase::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.75); /* Overlay mais escuro para garantir a leitura do texto */
+    z-index: 1;
+}
+
+.showcase__title {
+    font-size: 5em; /* Aumentar para impacto */
+    color: var(--color-primary);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Sombra para destacar no fundo */
+    margin-bottom: 15px;
+}
+.showcase__subtitle {
+    font-size: 1.4em; /* Subtítulo maior */
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+/* NOVO: Imagem do Duelo Principal com foco */
+.main-fight-display {
+    height: 300px; /* Aumentar a altura para mais impacto visual */
+    position: relative;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    /* Nova imagem de placeholder focado em dois lutadores */
+    background: url('https://source.unsplash.com/1000x300/?fighters,duel') no-repeat center center/cover;
+}
+
+/* ... O restante do bloco 4 permanece ... */
+
+/* ---------------------------------- */
+/* 5. SEÇÃO PROFESSORES (Imagens atualizadas) */
+/* ---------------------------------- */
+/* Mockup de Imagens (Imagens de lutadores/profissionais de luta) */
+.person-card__image--brucelee { background-image: url('https://source.unsplash.com/400x200/?muay+thai+trainer'); }
+.person-card__image--prof1 { background-image: url('https://source.unsplash.com/400x200/?boxing+coach'); }
+.person-card__image--prof2 { background-image: url('https://source.unsplash.com/400x200/?mma+wrestling+coach'); }
+.person-card__image--prof3 { background-image: url('https://source.unsplash.com/400x200/?female+kickboxer'); }
+.person-card__image--prof5 { background-image: url('https://source.unsplash.com/400x200/?jiu+jitsu+master'); }
+.person-card__image--prof6 { background-image: url('https://source.unsplash.com/400x200/?wrestling+trainer'); }
+.person-card__image--prof7 { background-image: url('https://source.unsplash.com/400x200/?female+mma+coach'); }
+
+
+/* ---------------------------------- */
+/* 6. SEÇÃO WORKSHOPS (Imagens atualizadas) */
+/* ---------------------------------- */
+/* Mockup de Imagens (Imagens de eventos/semínarios) */
+.workshop-card__image--ufc { background-image: url('https://source.unsplash.com/600x150/?mma+seminar'); }
+.workshop-card__image--one { background-image: url('https://source.unsplash.com/600x150/?grappling+workshop'); }
+.workshop-card__image--bellator { background-image: url('https://source.unsplash.com/600x150/?jiujitsu+training'); }
+.workshop-card__image--boxe { background-image: url('https://source.unsplash.com/600x150/?boxing+clinic'); }
+
+/* ---------------------------------- */
+/* 7. SEÇÃO SHOPPING (Imagens atualizadas) */
+/* ---------------------------------- */
+/* Mockup de Imagens (Imagens de equipamentos) */
+.product-card__image--shop1 { background-image: url('https://source.unsplash.com/400x200/?boxing+gloves'); }
+.product-card__image--shop2 { background-image: url('https://source.unsplash.com/400x200/?shin+guards'); }
+.product-card__image--shop3 { background-image: url('https://source.unsplash.com/400x200/?bjj+kimono'); }
+.product-card__image--shop4 { background-image: url('https://source.unsplash.com/400x200/?hand+wraps'); }
+.product-card__image--shop5 { background-image: url('https://source.unsplash.com/400x200/?heavy+bag'); }
+.product-card__image--shop6 { background-image: url('https://source.unsplash.com/400x200/?head+gear'); }

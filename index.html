@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOIÁS FIGHT | Sua Plataforma de Lutas</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header main-header bg--primary-orange" role="banner">
+        <div class="container header__content">
+            <div class="logo-area">
+                <a href="/" class="logo" aria-label="Página Inicial Goiás Fight">GOIÁS FIGHT</a>
+                <span class="logo-subtitle">SUA PLATAFORMA DE LUTAS</span>
+            </div>
+            
+            <nav class="main-nav" role="navigation">
+                <ul class="nav__list">
+                    <li><a href="#eventos-showcase" class="nav__link">Eventos</a></li>
+                    <li><a href="#professores" class="nav__link">Professores/Personal</a></li>
+                    <li><a href="#workshops" class="nav__link">Workshops</a></li>
+                    <li><a href="#shopping" class="nav__link nav__link--shop">Shopping</a></li>
+                    
+                    <li class="auth-group" role="menubar">
+                        <a href="#login-modal" class="btn btn--auth-compact" role="menuitem">Login/Entrar</a>
+                        <a href="#register-modal" class="btn btn--auth-compact btn--register" role="menuitem">Cadastrar</a>
+                        <a href="#login-google" class="btn btn--auth-compact btn--google-lite" aria-label="Entrar com Google" role="menuitem">G+</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="eventos-showcase" class="section event-showcase bg--dark" aria-labelledby="showcase-title">
+            <div class="container event-showcase__content">
+                <h1 id="showcase-title" class="showcase__title">A PRÓXIMA NOITE DE COMBATE É DE GOIÁS!</h1>
+                <p class="showcase__subtitle">Transmissão ao vivo e ingressos disponíveis. Veja os próximos eventos em Goiânia e Região Metropolitana:</p>
+                
+                <div class="event-showcase-grid">
+                    
+                    <article class="event-card event-card--predominant" role="region" aria-label="Evento Principal Goiás Victory 15">
+                        <div class="event-card__header">
+                            <span class="event-card__date">07 DE DEZEMBRO • SÁBADO, 21:00 BRT</span>
+                            <h2 class="event-card__title">GOIÂNIA VICTORY 15: O DUELO FINAL</h2>
+                            <p class="event-card__location">📍 **Ginásio Rio Vermelho**, Setor Aeroporto - GO</p>
+                        </div>
+                        <div class="main-fight-display fight-image--major">
+                            <div class="fight-info">
+                                <div class="fighter fighter--a">J. "IMPERADOR" SILVA</div>
+                                <div class="vs-label">VS</div>
+                                <div class="fighter fighter--b">P. "FÚRIA" OLIVEIRA</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn--huge-cta" aria-label="Comprar ingresso para o evento principal">GARANTA SEU INGRESSO AGORA!</a>
+                    </article>
+
+                    <div class="event-showcase-secondary">
+                        <h3 class="secondary-events-title">Próximos na Agenda:</h3>
+                        
+                        <article class="event-card event-card--secondary" aria-label="Evento Boxe: Luvas de Ouro">
+                            <span class="event-card__date">14 DE DEZEMBRO | 20:00</span>
+                            <h4 class="event-card__title">BOXE: LUVAS DE OURO</h4>
+                            <p class="event-card__category">📍 **Clube Marista**, Setor Marista</p>
+                            <a href="#" class="btn btn--secondary-details">DETALHES</a>
+                        </article>
+
+                        <article class="event-card event-card--secondary" aria-label="Evento Muay Thai: Thai Force">
+                            <span class="event-card__date">21 DE DEZEMBRO | 19:30</span>
+                            <h4 class="event-card__title">THAI FORCE: DESAFIO 4 CANTOS</h4>
+                            <p class="event-card__category">📍 **Tribos Fight**, Jardim América</p>
+                            <a href="#" class="btn btn--secondary-details">DETALHES</a>
+                        </article>
+
+                        <article class="event-card event-card--secondary" aria-label="Evento Kickboxing: K-1 Force">
+                            <span class="event-card__date">28 DE DEZEMBRO | 22:00</span>
+                            <h4 class="event-card__title">KICKFORCE: K-1 FORCE NIGHT</h4>
+                            <p class="event-card__category">📍 **Goiânia Arena**, St. Jardim Goiás</p>
+                            <a href="#" class="btn btn--secondary-details">DETALHES</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="professores" class="section section--instructors bg--dark-gray-alt" aria-labelledby="instructors-title">
+            <div class="container">
+                <h2 id="instructors-title" class="section__title section__title--light">PROFESSORES & PERSONAL FIGHT</h2>
+                
+                <div class="card-grid card-grid--instructors card-grid--3-cols-compact">
+                    <article class="person-card person-card--instructor" aria-label="Perfil do Professor Bruce Lee">
+                        <div class="person-card__image person-card__image--brucelee" role="img" aria-label="Imagem de perfil de Bruce Lee"></div>
+                        <div class="person-card__text-content">
+                            <h4 class="person-card__name">BRUCE "JKD" LEE</h4>
+                            <p class="person-card__role">Filosofia de Jeet Kune Do</p>
+                            <p class="person-card__details">📍 **Região:** Central/Oeste | 💰 **Valor h/a:** R$ 150,00</p>
+                        </div>
+                    </article>
+                    <article class="person-card person-card--instructor" aria-label="Perfil do Professor Petchabun">
+                        <div class="person-card__image person-card__image--prof1" role="img" aria-label="Imagem de perfil do Professor Petchabun"></div>
+                        <div class="person-card__text-content">
+                            <h4 class="person-card__name">Petchabun (Muay Thai)</h4>
+                            <p class="person-card__role">CT Thai Roots | Personal Fight</p>
+                            <p class="person-card__details">📍 **Região:** Setor Sul | 💰 **Valor h/a:** R$ 120,00</p>
+                        </div>
+                    </article>
+                    <article class="person-card person-card--instructor" aria-label="Perfil do Professor Carlos Gomes">
+                        <div class="person-card__image person-card__image--prof2" role="img" aria-label="Imagem de perfil do Professor Carlos Gomes"></div>
+                        <div class="person-card__text-content">
+                            <h4 class="person-card__name">Carlos "A Luva" Gomes</h4>
+                            <p class="person-card__role">Boxe Olímpico & Profissional</p>
+                            <p class="person-card__details">📍 **Região:** Jardim América | 💰 **Valor h/a:** R$ 140,00</p>
+                        </div>
+                    </article>
+                    <article class="person-card person-card--instructor" aria-label="Perfil da Professora Ana Paula Lee">
+                        <div class="person-card__image person-card__image--prof3" role="img" aria-label="Imagem de perfil da Professora Ana Paula Lee"></div>
+                        <div class="person-card__text-content">
+                            <h4 class="person-card__name">Ana Paula Lee (Taekwondo)</h4>
+                            <p class="person-card__role">Kick Goiania | Personal Defense</p>
+                            <p class="person-card__details">📍 **Região:** Setor Bueno | 💰 **Valor h/a:** R$ 130,00</p>
+                        </div>
+                    </article>
+                    <article class="person-card person-card--instructor" aria-label="Perfil do Professor Bruno Sá">
+                        <div class="person-card__image person-card__image--prof5" role="img" aria-label="Imagem de perfil do Professor Bruno Sá"></div>
+                        <div class="person-card__text-content">
+                            <h4 class="person-card__name">Prof. Bruno "Gorila" Sá</h4>
+                            <p class="person-card__role">Jiu-Jitsu Brasileiro (BJJ)</p>
+                            <p class="person-card__details">📍 **Região:** Setor Oeste | 💰 **Valor h/a:** R$ 110,00</p>
+                        </div>
+                    </article>
+                    <article class="person-card person-card--instructor" aria-label="Perfil do Técnico Raul Mendes">
+                        <div class="person-card__image person-card__image--prof6" role="img" aria-label="Imagem de perfil do Técnico Raul Mendes"></div>
+                        <div class="person-card__text-content">
+                            <h4 class="person-card__name">Técnico Raul Mendes</h4>
+                            <p class="person-card__role">Wrestling e Preparação MMA</p>
+                            <p class="person-card__details">📍 **Região:** Marista | 💰 **Valor h/a:** R$ 160,00</p>
+                        </div>
+                    </article>
+                    <article class="person-card person-card--instructor" aria-label="Perfil da Mestra Carla Pires">
+                        <div class="person-card__image person-card__image--prof7" role="img" aria-label="Imagem de perfil da Mestra Carla Pires"></div>
+                        <div class="person-card__text-content">
+                            <h4 class="person-card__name">Mestra Carla Pires</h4>
+                            <p class="person-card__role">Kickboxing & K-1 Rules</p>
+                            <p class="person-card__details">📍 **Região:** Pq. Flamboyant | 💰 **Valor h/a:** R$ 135,00</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="workshops" class="section section--workshops bg--orange" aria-labelledby="workshops-title">
+            <div class="container">
+                <h2 id="workshops-title" class="section__title section__title--dark section__title--dark-border">WORKSHOPS & MASTERCLASSES COM LUTADORES DE ELITE</h2>
+                <p class="workshop-intro">Aprenda táticas de alto nível com atletas do UFC, ONE Championship e Bellator em Goiânia.</p>
+
+                <div class="card-grid card-grid--workshops card-grid--expanded">
+                    <article class="workshop-card" aria-label="Workshop com Alex Poatan Pereira">
+                        <div class="workshop-card__header-img workshop-card__image--ufc" role="img" aria-label="Imagem de Masterclass com Alex Poatan"></div>
+                        <div class="workshop-card__info">
+                            <span class="workshop-card__date">10/JAN/2026 | CT OESTE</span>
+                            <h3>Masterclass com ALEX "POATAN" PEREIRA (UFC)</h3>
+                            <p class="workshop-card__theme">O Poder do Contra-Ataque e Nocautes do Boxe no MMA.</p>
+                            <p class="workshop-card__price">R$ 450,00</p>
+                            <a href="#" class="btn btn--buy" aria-label="Inscrever-se no workshop de Alex Poatan">INSCREVER-SE</a>
+                        </div>
+                    </article>
+                    <article class="workshop-card" aria-label="Seminário com Reinier De Ridder">
+                        <div class="workshop-card__header-img workshop-card__image--one" role="img" aria-label="Imagem de Seminário com Reinier De Ridder"></div>
+                        <div class="workshop-card__info">
+                            <span class="workshop-card__date">25/JAN/2026 | CT MARISTA</span>
+                            <h3>Seminário com REINIER "The Dutch Knight" (ONE)</h3>
+                            <p class="workshop-card__theme">Grappling Tailandês: Como usar a luta de chão no Muay Thai/MMA.</p>
+                            <p class="workshop-card__price">R$ 490,00</p>
+                            <a href="#" class="btn btn--buy" aria-label="Inscrever-se no seminário de Reinier De Ridder">INSCREVER-SE</a>
+                        </div>
+                    </article>
+                    <article class="workshop-card" aria-label="Seminário com Vitor Reis">
+                        <div class="workshop-card__header-img workshop-card__image--bellator" role="img" aria-label="Imagem de Seminário com Vitor Reis"></div>
+                        <div class="workshop-card__info">
+                            <span class="workshop-card__date">15/FEV/2026 | ACAD. JARDIM AMÉRICA</span>
+                            <h3>Seminário com VITOR "Phenom" REIS (Bellator)</h3>
+                            <p class="workshop-card__theme">Transições de Jiu-Jitsu para o Wrestling: Dominando o Chão.</p>
+                            <p class="workshop-card__price">R$ 380,00</p>
+                            <a href="#" class="btn btn--buy" aria-label="Inscrever-se no seminário de Vitor Reis">INSCREVER-SE</a>
+                        </div>
+                    </article>
+                    <article class="workshop-card" aria-label="Clínica de Boxe com Sérgio Martins">
+                        <div class="workshop-card__header-img workshop-card__image--boxe" role="img" aria-label="Imagem de Clínica de Boxe com Sérgio Martins"></div>
+                        <div class="workshop-card__info">
+                            <span class="workshop-card__date">01/MAR/2026 | CLUBE MARISTA</span>
+                            <h3>Clínica de Boxe com SÉRGIO "Punhos" MARTINS</h3>
+                            <p class="workshop-card__theme">Defesa e Head Movement Profissional: Evitando Danos.</p>
+                            <p class="workshop-card__price">R$ 320,00</p>
+                            <a href="#" class="btn btn--buy" aria-label="Inscrever-se na clínica de Boxe de Sérgio Martins">INSCREVER-SE</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="shopping" class="section section--shop bg--light-gray" aria-labelledby="shop-title">
+            <div class="container">
+                <h2 id="shop-title" class="section__title section__title--dark">SHOPPING FIGHT: EQUIPAMENTOS DE ELITE</h2>
+                <p class="shop-intro">Qualidade profissional. Envio rápido para toda a RM de Goiânia. **Promoções exclusivas para membros!**</p>
+
+                <div class="products-grid products-grid--3-cols-compact">
+                    <article class="product-card product-card--shop" aria-label="Detalhes da Luva Pro-Fighter X12">
+                        <div class="product-card__image product-card__image--shop1" role="img" aria-label="Imagem da Luva Pro-Fighter X12"></div>
+                        <div class="product-card__info">
+                            <span class="product-card__promo">🔥 Mais Vendida</span>
+                            <h3>LUVA PRO-FIGHTER X12</h3>
+                            <p class="product-card__category">Boxe / Muay Thai | 12oz</p>
+                            <p class="product-card__price">R$ 499,90</p>
+                            <a href="#" class="btn btn--add-cart" aria-label="Adicionar Luva Pro-Fighter X12 ao carrinho">ADICIONAR AO CARRINHO</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card product-card--shop" aria-label="Detalhes da Caneleira Thai Pro">
+                        <div class="product-card__image product-card__image--shop2" role="img" aria-label="Imagem da Caneleira Thai Pro"></div>
+                        <div class="product-card__info">
+                            <h3>CANELEIRA THAI PRO</h3>
+                            <p class="product-card__category">Muay Thai / Kickboxing</p>
+                            <p class="product-card__price">R$ 289,90</p>
+                            <a href="#" class="btn btn--add-cart" aria-label="Adicionar Caneleira Thai Pro ao carrinho">ADICIONAR AO CARRINHO</a>
+                        </div>
+                    </article>
+                    
+                    <article class="product-card product-card--shop" aria-label="Detalhes do Kimono BJJ Grappling"><div class="product-card__image product-card__image--shop3" role="img" aria-label="Imagem do Kimono BJJ Grappling"></div><div class="product-card__info"><h3>KIMONO BJJ GRAPPLING</h3><p class="product-card__category">Jiu-Jitsu | Azul Royal</p><p class="product-card__price">R$ 550,00</p><a href="#" class="btn btn--add-cart" aria-label="Adicionar Kimono BJJ Grappling ao carrinho">ADICIONAR AO CARRINHO</a></div></article>
+                    <article class="product-card product-card--shop" aria-label="Detalhes da Bandagem Elástica"><div class="product-card__image product-card__image--shop4" role="img" aria-label="Imagem da Bandagem Elástica"></div><div class="product-card__info"><span class="product-card__promo">⭐ Novo</span><h3>BANDAGEM ELÁSTICA</h3><p class="product-card__category">Acessórios | 4,5m</p><p class="product-card__price">R$ 49,90</p><a href="#" class="btn btn--add-cart" aria-label="Adicionar Bandagem Elástica ao carrinho">ADICIONAR AO CARRINHO</a></div></article>
+                    <article class="product-card product-card--shop" aria-label="Detalhes do Saco de Pancada XL"><div class="product-card__image product-card__image--shop5" role="img" aria-label="Imagem do Saco de Pancada XL"></div><div class="product-card__info"><h3>SACO DE PANCADA XL</h3><p class="product-card__category">Treinamento | 180cm</p><p class="product-card__price">R$ 799,00</p><a href="#" class="btn btn--add-cart" aria-label="Adicionar Saco de Pancada XL ao carrinho">ADICIONAR AO CARRINHO</a></div></article>
+                    <article class="product-card product-card--shop" aria-label="Detalhes do Capacete Sparring Pro"><div class="product-card__image product-card__image--shop6" role="img" aria-label="Imagem do Capacete Sparring Pro"></div><div class="product-card__info"><h3>CAPACETE SPARRING PRO</h3><p class="product-card__category">Boxe / MMA</p><p class="product-card__price">R$ 229,00</p><a href="#" class="btn btn--add-cart" aria-label="Adicionar Capacete Sparring Pro ao carrinho">ADICIONAR AO CARRINHO</a></div></article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container footer__content">
+            <p class="developer-credit">Desenvolvido por **JOEL BENTO DOS SANTOS**.</p>
+            <p class="copyright-info">© 2025 Goiás Fight. Plataforma oficial de eventos de luta na Região Metropolitana de Goiânia.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
